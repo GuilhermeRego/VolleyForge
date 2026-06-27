@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VolleyForge.API/VolleyForge.API.csproj" />
+    <Project Path="src/VolleyForge.Application/VolleyForge.Application.csproj" />
+    <Project Path="src/VolleyForge.Domain/VolleyForge.Domain.csproj" />
+    <Project Path="src/VolleyForge.Infrastructure/VolleyForge.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VolleyForge.Tests/VolleyForge.Tests.csproj" />
+  </Folder>
+</Solution>

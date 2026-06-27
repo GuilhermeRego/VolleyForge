@@ -1,6 +1,6 @@
 @VolleyForge.API_HostAddress = http://localhost:5135
 
-GET {{VolleyForge.API_HostAddress}}/weatherforecast/
+GET {{VolleyForge.API_HostAddress}}/api/clubs/
 Accept: application/json
 
 ###

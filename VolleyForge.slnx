@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/docs/">
+    <File Path="learning-log.md" />
+  </Folder>
+  <Folder Name="/docs/assets/" />
   <Folder Name="/src/">
     <Project Path="src/VolleyForge.API/VolleyForge.API.csproj" />
     <Project Path="src/VolleyForge.Application/VolleyForge.Application.csproj" />

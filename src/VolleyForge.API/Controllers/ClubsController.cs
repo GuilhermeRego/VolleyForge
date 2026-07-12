@@ -12,8 +12,8 @@ public sealed class ClubsController : ControllerBase
     {
         var clubs = new List<Club>
         {
-            new ("Associação Desportiva Recreativa Escolar Praiense", "Seniores Masculinos"),
-            new ("Associação de Jovens da Fonte do Bastardo", "Seniores Masculinos"),
+            new ("Associação Desportiva Recreativa Escolar Praiense", "ADREP"),
+            new ("Associação de Jovens da Fonte do Bastardo", "AJFB"),
         };
 
         return Ok(clubs);

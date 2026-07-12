@@ -12,10 +12,10 @@ public sealed class Club
         ShortName = string.Empty;
     }
 
-    public Club(string nome, string shortName)
+    public Club(string name, string shortName)
     {
         Id = Guid.NewGuid();
-        Name = nome;
+        Name = name;
         ShortName = shortName;
     }
 }

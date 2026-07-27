@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: volleyforge-db
+    environment:
+      POSTGRES_USER: volleyforge
+      POSTGRES_PASSWORD: volleyforge_dev
+      POSTGRES_DB: volleyforge
+    ports:
+      - "5433:5432"
+    volumes:
+      - volleyforge_pgdata:/var/lib/postgresql/18/docker
+
+volumes:
+  volleyforge_pgdata:

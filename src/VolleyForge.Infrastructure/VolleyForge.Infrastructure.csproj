@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\VolleyForge.Application\VolleyForge.Application.csproj" />
     <ProjectReference Include="..\VolleyForge.Domain\VolleyForge.Domain.csproj" />
   </ItemGroup>

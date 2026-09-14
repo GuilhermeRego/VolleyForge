@@ -17,6 +17,7 @@
     <Project Path="src/VolleyForge.Infrastructure/VolleyForge.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/VolleyForge.Tests/VolleyForge.Tests.csproj" />
+    <Project Path="tests/VolleyForge.IntegrationTests/VolleyForge.IntegrationTests.csproj" />
+    <Project Path="tests/VolleyForge.Tests/VolleyForge.UnitTests.csproj" />
   </Folder>
 </Solution>

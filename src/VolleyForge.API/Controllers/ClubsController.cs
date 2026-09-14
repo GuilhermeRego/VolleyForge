@@ -23,6 +23,6 @@ public sealed class ClubsController(IClubRepository clubRepository) : Controller
     {
         Club? club = await _clubRepository.GetByIdAsync(Id);
 
-        return Ok(club);
+        return club is null ? NotFound() : Ok(club);
     }
 }

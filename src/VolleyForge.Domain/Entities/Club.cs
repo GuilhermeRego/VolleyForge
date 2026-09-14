@@ -14,6 +14,15 @@ public sealed class Club
 
     public Club(string name, string shortName)
     {
+       if (name == string.Empty)
+        {
+            throw new ArgumentException("The name of the club shouldn't be empty.", nameof(name));
+        }
+        else if (shortName == string.Empty)
+        {
+            throw new ArgumentException("The shortname of the club shouldn't be empty.", nameof(shortName));
+        }
+
         Id = Guid.NewGuid();
         Name = name;
         ShortName = shortName;

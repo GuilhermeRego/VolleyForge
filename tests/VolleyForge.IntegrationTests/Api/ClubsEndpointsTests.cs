@@ -4,11 +4,11 @@ using VolleyForge.IntegrationTests.Fixtures;
 
 namespace VolleyForge.IntegrationTests.ApiTests;
 
-public class ClubsEndpointsTests : IClassFixture<ApiWebApplicationFactory>
+public class ClubsEndpointsTests : IClassFixture<ApiFactory>
 {
-    private readonly ApiWebApplicationFactory _factory;
+    private readonly ApiFactory _factory;
 
-    public ClubsEndpointsTests(ApiWebApplicationFactory factory)
+    public ClubsEndpointsTests(ApiFactory factory)
     {
         _factory = factory;
     }

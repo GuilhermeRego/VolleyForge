@@ -6,6 +6,7 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitignore" />
+    <File Path="AGENTS.md" />
     <File Path="CLAUDE.md" />
     <File Path="docker-compose.yaml" />
     <File Path="README.md" />

@@ -5,6 +5,10 @@
   <Folder Name="/docs/assets/" />
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="AGENTS.md" />
+    <File Path="CLAUDE.md" />
+    <File Path="docker-compose.yaml" />
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
@@ -14,6 +18,7 @@
     <Project Path="src/VolleyForge.Infrastructure/VolleyForge.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/VolleyForge.Tests/VolleyForge.Tests.csproj" />
+    <Project Path="tests/VolleyForge.IntegrationTests/VolleyForge.IntegrationTests.csproj" />
+    <Project Path="tests/VolleyForge.UnitTests/VolleyForge.UnitTests.csproj" />
   </Folder>
 </Solution>

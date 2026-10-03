@@ -1,6 +1,8 @@
-@VolleyForge.API_HostAddress = http://localhost:5135
+@base = http://localhost:5135
 
-GET {{VolleyForge.API_HostAddress}}/api/clubs/
+GET {{base}}/api/clubs/
 Accept: application/json
 
 ###
+GET {{base}}/api/clubs/a1000000-0000-0000-0000-000000000001
+Accept: application/json

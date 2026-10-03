@@ -481,3 +481,5 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 /CLAUDE.md
+/docs/AI_COLLABORATION.md
+/AGENTS.md

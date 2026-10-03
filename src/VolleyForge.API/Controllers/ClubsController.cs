@@ -17,4 +17,12 @@ public sealed class ClubsController(IClubRepository clubRepository) : Controller
 
         return Ok(clubs);
     }
+
+    [HttpGet("{Id:guid}")]
+    public async Task<IActionResult> GetById([FromRoute] Guid Id)
+    {
+        Club? club = await _clubRepository.GetByIdAsync(Id);
+
+        return club is null ? NotFound() : Ok(club);
+    }
 }

@@ -42,4 +42,23 @@ public class DatabaseTests : IClassFixture<ApiFactory>
         Assert.Equal(club2.Name, responseClubs[1].Name);
         Assert.Equal(club2.ShortName, responseClubs[1].ShortName);
     }
+
+    // We don't have this endpoint yet
+    //[Fact]
+    //public async Task Should_Create_Club()
+    //{
+    //    // Arrange: Create club to save on db and cliente based on the API to send the HTTP request
+    //    Club club = new("Teste", "TEST");
+    //    var client = _factory.CreateClient();
+    //    _factory._sharedFixture.VolleyForgeContext.Add(club);
+    //    await _factory._sharedFixture.VolleyForgeContext.SaveChangesAsync();
+    //    JsonContent content = JsonContent.Create(club);
+
+    //    // Act: Send request and get club
+    //    var response = await client.PostAsync("/api/clubs", content);
+
+    //    // Assert: API returns correct status code and container saves club
+    //    Assert.Equal(HttpStatusCode.Created, response.StatusCode);
+    //    Assert.NotNull(content);
+    //}
 }
